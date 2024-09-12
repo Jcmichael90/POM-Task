@@ -16,7 +16,7 @@ describe('Task', ()=>{
         cy.get(elements.Onesie).click()
         cy.get(elements.tshirtRed).click()
         cy.get(elements.inventoryContainer).should('not.be.empty')
-        cy.get(elements.carts).click()
+        cy.get(elements.cart).click()
         cy.get(elements.checkout).click()
         cy.get(elements.firstNameField).type('Michael')
         cy.get(elements.lastNameField).type('Akintayo')
